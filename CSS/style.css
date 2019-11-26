@@ -1,0 +1,73 @@
+html {
+    background: #f9f9f9;
+}
+
+/* NAVBAR */
+header {
+    background: white;
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.navbar-icon {
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+}
+
+.icon-left {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-self: center;
+
+}
+
+.youtube-logo {
+    place-self: stretch;
+}
+
+.icon-middle {
+    align-self: center;
+    justify-self: center;
+    box-sizing: border-box;
+}
+
+.icon-middle > input {
+    /* THIS NEEDS TO BE RESPOSIVE */
+    height: 26px;
+    margin-right: 0;
+    width: 600px;
+}
+
+.icon-middle > button {
+    /* THIS NEEDS TO BE FIXED */
+    height: 26px;
+    margin-left: 0;
+    width: 65px;
+}
+
+.icon-right {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-self: center;
+    /* justify-self: end; */
+    row-gap: 10px;
+}
+
+/*
+header > :nth-child(1) {
+    grid-column: 1;
+
+}
+header > :nth-child(2) {
+    grid-column: 2;
+}
+header > :nth-child(3) {
+    grid-column: 5;
+}
+header > :nth-child(4) {
+    grid-column: 7;
+} */
