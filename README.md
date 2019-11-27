@@ -11,4 +11,5 @@ Basic youtube clone project from the Odin's Project
 - [Santiago Rueda Ortiz](https://github.com/srueda27)
 
 Icons from [Icons8](https://icons8.com/icons/)
+
 GIFs from [GIPHY](https://giphy.com/gifs/icUzVCVqMABHiEDEHE)
