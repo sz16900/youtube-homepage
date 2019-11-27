@@ -57,17 +57,24 @@ header {
     row-gap: 10px;
 }
 
-/*
-header > :nth-child(1) {
-    grid-column: 1;
+/* main */
 
+main {
+    display: grid;
+    grid-template-columns: 65% 30%;
+    place-content: space-evenly space-evenly;
 }
-header > :nth-child(2) {
-    grid-column: 2;
+
+aside,
+section {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
 }
-header > :nth-child(3) {
-    grid-column: 5;
+
+aside {
+    grid-column-start: 2;
 }
-header > :nth-child(4) {
-    grid-column: 7;
-} */
+
+section {
+    grid-column-start: 1;
+}
