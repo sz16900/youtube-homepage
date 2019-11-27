@@ -3,12 +3,12 @@
 Basic youtube clone project from the Odin's Project
 
 # Technologies
-- HTML <br>
+- HTML 
 - CSS
 
 # Authors
-- <a href="https://github.com/sz16900">Seth Zea</a>
-- <a href="https://github.com/srueda27">Santiago Rueda Ortiz</a>
+- [Seth Zea](https://github.com/sz16900)
+- [Santiago Rueda Ortiz](https://github.com/srueda27)
 
-Icons from <a href="https://icons8.com/icons/">Icons8</a> <br>
-GIFs from <a href="https://giphy.com/gifs/icUzVCVqMABHiEDEHE">GIPHY</a>
+Icons from [Icons8](https://icons8.com/icons/)
+GIFs from [GIPHY](https://giphy.com/gifs/icUzVCVqMABHiEDEHE)
