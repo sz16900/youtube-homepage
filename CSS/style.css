@@ -113,3 +113,42 @@ h3 {
 .btn-nav {
     background: white;
 }
+
+/* Aside Section */
+
+.gif {
+    width: 12em;
+    height: 7em;
+}
+
+.giphy-embed {
+    display: grid;
+    grid-template-areas:
+     "gif description "
+    ;
+}
+
+.gif-description {
+    grid-area: description;
+
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-gap: 0.5em;
+    align-content: center;
+
+    margin: 0.5em;
+}
+
+.gif {
+    grid-area: gif;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.author {
+}
+
+.views {
+}
