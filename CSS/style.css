@@ -30,29 +30,30 @@ header {
 }
 
 .icon-middle {
-    align-self: center;
-    justify-self: center;
+    display: grid;
+    grid-template-areas: 
+    "search button"
+    ;
+    place-self: center center;
     box-sizing: border-box;
 }
 
 .icon-middle > input {
     /* THIS NEEDS TO BE RESPOSIVE */
+    grid-area: search;
     height: 26px;
     margin-right: 0;
     width: 600px;
 }
 
-/* .icon-middle > button {
-    height: 26px;
-    margin-left: 0;
-    width: 65px;
-} */
+.icon-middle > button {
+    grid-area: button;
+}
 
 .icon-right {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-self: center;
-    /* justify-self: end; */
     row-gap: 10px;
 }
 
