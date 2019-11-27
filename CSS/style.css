@@ -69,6 +69,7 @@ aside,
 section {
     display: grid;
     grid-auto-rows: min-content;
+    grid-gap: 0.8em;
 }
 
 aside {
@@ -177,4 +178,43 @@ section {
 .comments-update {
     font-size: 16px;
     color: gray
+}
+
+/* Aside Section */
+
+.giphy-embed {
+    display: grid;
+    grid-template-areas:
+     "gif description "
+    ;
+}
+
+.gif {
+    width: 12em;
+    height: 7em;
+}
+
+.gif-description {
+    grid-area: description;
+
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-gap: 0.25em;
+    align-content: center;
+
+    margin: 0.5em;
+}
+
+.gif {
+    grid-area: gif;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.author,
+.views {
+    font-size: small;
+    color: grey;
 }
