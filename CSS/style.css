@@ -69,6 +69,7 @@ aside,
 section {
     display: grid;
     grid-auto-rows: min-content;
+    grid-gap: 0.8em;
 }
 
 aside {
@@ -186,7 +187,6 @@ section {
     grid-template-areas:
      "gif description "
     ;
-    grid-gap: 0.5em;
 }
 
 .gif {
@@ -199,7 +199,7 @@ section {
 
     display: grid;
     grid-auto-rows: min-content;
-    grid-gap: 0.5em;
+    grid-gap: 0.25em;
     align-content: center;
 
     margin: 0.5em;
@@ -211,4 +211,10 @@ section {
 
 .name {
     font-weight: bold;
+}
+
+.author,
+.views {
+    font-size: small;
+    color: grey;
 }
