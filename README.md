@@ -4,6 +4,8 @@ Basic youtube clone project from the Odin's Project
 
 [YouTube Clone](https://sz16900.github.io/youtube-homepage/)
 
+![alt text](https://github.com/sz16900/youtube-homepage/blob/development/images/youtube.png?raw=true)
+
 # Technologies
 - HTML 
 - CSS
